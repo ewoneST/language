@@ -86,3 +86,4 @@ CAPTION_BUTTON = "Subscribe"
 CAPTION_BUTTON_URL = "https://youtube.com/@GreyMattersYT"
 
    # Auto Delete For Bot Sending Files #
+LANGUAGES = ["malayalam", "tamil", "english", "hindi", "telugu", "kannada"]
