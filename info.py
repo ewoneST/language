@@ -86,4 +86,4 @@ CAPTION_BUTTON = "JOINT UPDATE"
 CAPTION_BUTTON_URL = "https://t.me/st_movie_upadate"
 
    # Auto Delete For Bot Sending Files #
-LANGUAGES = ["multi", "malayalam", "tamil", "english", "hindi", "telugu", "kannada"]
+LANGUAGES = ["multi", "malayalam", "mal", "tamil", "tam", "english", "eng", "hindi", "hin", "telugu", "tel", "kannada", "kan"]
