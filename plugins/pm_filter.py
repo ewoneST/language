@@ -114,7 +114,7 @@ async def next_page(bot, query):
         
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/st_movie_upadate/1546')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/st_movie_upadate/1617')
         ]
     )
 
@@ -273,7 +273,7 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
     )
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/st_movie_upadate/1546')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/st_movie_upadate/1617')
         ]
     )
     
@@ -814,7 +814,7 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/st_movie_upadate/1546')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/st_movie_upadate/1617')
         ]
     )
 
