@@ -830,6 +830,10 @@ async def auto_filter(client, msg, spoll=False):
         btn.append(
             [InlineKeyboardButton(text="🗓 1/1", callback_data="pages")]
         )
+        await message.reply_chat_action(enums.ChatAction.TYPING)
+        m=await message.reply_sticker("CAACAgIAAxkBAAEJmlJkpY6lYfTrpAFn4Xacz2m9di40yAACcAEAAhAabSIN3A9bRLCgiy8E")
+        await asyncio.sleep(1)
+        await m.delete()
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
     if imdb:
