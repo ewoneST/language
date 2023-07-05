@@ -51,7 +51,7 @@ async def fil_mod(client, message):
       else:
           await m.edit("USE :- /autofilter on 𝙾𝚁 /autofilter off")
 
-@@Client.on_message((filters.group | filters.private) & filters.text & filters.incoming)
+@Client.on_message((filters.group | filters.private) & filters.text & filters.incoming)
 async def message.reply_chat_action(enums.ChatAction.TYPING)
         m=await message.reply_sticker("CAACAgIAAxkBAAEJmlJkpY6lYfTrpAFn4Xacz2m9di40yAACcAEAAhAabSIN3A9bRLCgiy8E")
         await asyncio.sleep(1)
