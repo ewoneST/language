@@ -55,6 +55,10 @@ async def is_subscribed(bot, query):
     return False
 
 async def get_poster(query, bulk=False, id=False, file=None):
+    await message.reply_chat_action(enums.ChatAction.TYPING)
+        m=await message.reply_sticker("CAACAgIAAxkBAAEJmlJkpY6lYfTrpAFn4Xacz2m9di40yAACcAEAAhAabSIN3A9bRLCgiy8E")
+        await asyncio.sleep(1)
+        await m.delete()
     if not id:
         # https://t.me/GetTGLink/4183
         query = (query.strip()).lower()
