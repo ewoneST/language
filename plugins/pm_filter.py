@@ -51,12 +51,14 @@ async def fil_mod(client, message):
       else:
           await m.edit("USE :- /autofilter on 𝙾𝚁 /autofilter off")
 
-@Client.on_message((filters.group | filters.private) & filters.text & filters.incoming)
-async def give_filter(client, message):
-    await message.reply_chat_action(enums.ChatAction.TYPING)
-        z=await message.reply_sticker("CAACAgIAAxkBAAEJmlJkpY6lYfTrpAFn4Xacz2m9di40yAACcAEAAhAabSIN3A9bRLCgiy8E")
+@@Client.on_message((filters.group | filters.private) & filters.text & filters.incoming)
+async def message.reply_chat_action(enums.ChatAction.TYPING)
+        m=await message.reply_sticker("CAACAgIAAxkBAAEJmlJkpY6lYfTrpAFn4Xacz2m9di40yAACcAEAAhAabSIN3A9bRLCgiy8E")
         await asyncio.sleep(1)
-        await z.delete()
+        await m.delete()
+        return
+
+give_filter(client, message):
     k = await manual_filters(client, message)
     if k == False:
         await auto_filter(client, message)
