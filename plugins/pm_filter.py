@@ -769,10 +769,6 @@ async def auto_filter(client, msg, spoll=False):
             return
         if 2 < len(message.text) < 100:
             search = message.text
-            await message.reply_chat_action(enums.ChatAction.TYPING)
-        z=await message.reply_sticker("CAACAgIAAxkBAAEJmlJkpY6lYfTrpAFn4Xacz2m9di40yAACcAEAAhAabSIN3A9bRLCgiy8E")
-        await asyncio.sleep(1)
-        await z.delete()
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
                 if settings["spell_check"]:
