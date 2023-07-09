@@ -52,7 +52,7 @@ def file_command(update, context):
     if result:
         if result[0] == 1:
             # Premium user
-            context.bot.send_document(chat_id=user_id, document=open('file.mkv,mp4mp4', 'rb'))
+            context.bot.send_document(chat_id=user_id, document=open('file.mkv', 'rb'))
         else:
             # Non-premium user
             shortener = Shortener()
