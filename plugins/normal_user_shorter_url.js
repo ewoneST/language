@@ -2,7 +2,7 @@
 
 let filter = require('auto-filter');
 
-filter.load('shorter-url', {
+filter.load('shortenedUrl', {
   type: 'normal_user',
   url: 
 }).then(() => {
