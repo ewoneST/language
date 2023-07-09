@@ -56,7 +56,7 @@ def file_command(update, context):
         else:
             # Non-premium user
             shortener = Shortener()
-            short_url = shortener.short('https://example.com/file.pdf')
+            short_url = shortener.short('https://example.com/file.mkv')
             context.bot.send_message(chat_id=user_id, text=f"Here is the URL: {short_url}")
 
 # Create the updater and dispatcher
